@@ -57,9 +57,9 @@ def crossover(parent1, parent2):
 def mutate(genome):
     # for each bit within the genome
     for i in range(len(genome)):
-        # for each bit, there is a 1% chance (mutation rate) we are going to flip it
+        # for each bit, there is a 1% chance (mutation rate) that the genes are changed inside an individual genome
         if random.random() < MUTATION_RATE:
-            # if the 1% chance happens, flip (mutate) the bit
+            # if the 1% chance happens, mutation occurs within individual genome
             genome[i] = abs(genome[i] - 1)
 
         # return genome once done with mutation
