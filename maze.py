@@ -31,5 +31,4 @@ def print_maze(maze):
 
 
 if __name__ == "__main__":
-    # Generate and print the maze
-    maze = print_maze(MAZE)
+    print_maze(MAZE)
