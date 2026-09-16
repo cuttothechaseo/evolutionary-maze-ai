@@ -62,8 +62,8 @@ def mutate(genome):
             # if the 1% chance happens, mutation occurs within individual genome
             genome[i] = abs(genome[i] - 1)
 
-        # return genome once done with mutation
-        return genome
+    # return genome once done with mutation
+    return genome
 
 
 # Genetic Algorithm function
